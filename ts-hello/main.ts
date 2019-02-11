@@ -1,8 +1,6 @@
+import {Point} from './point' 
+
+let point = new Point(2,3);
+point.draw();
 
 
-
-let doLog = (message) => {
-    console.log(message);
-}
-
-doLog('Shajib');
