@@ -1,5 +1,10 @@
 "use strict";
 exports.__esModule = true;
-var point_1 = require("./point");
-var point = new point_1.Point(2, 3);
-point.draw();
+var excercise1_1 = require("./excercise1");
+// let point = new Point(2,3);
+// point.draw();
+var likeFeature = new excercise1_1.LikeFeature(12, false);
+console.log("Initial Like: " + likeFeature._likes + ", IsSelected: " + likeFeature._state);
+console.log('Press Like BUtton');
+likeFeature.onClick();
+console.log("Current Like : " + likeFeature._likes + ", IsSelected: " + likeFeature._state);
